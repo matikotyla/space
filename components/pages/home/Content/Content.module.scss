@@ -1,0 +1,33 @@
+// root
+.root {
+  @apply w-full mx-auto max-w-3xl px-4 sm:px-6 lg:px-8;
+}
+
+// title
+.title {
+  @apply text-4xl font-bold tracking-tight sm:text-center sm:text-6xl;
+}
+
+// text
+.text {
+  @apply mt-6 text-lg leading-8 text-gray-600 sm:text-center;
+}
+
+// label
+.label {
+  @apply flex mb-8 justify-center;
+}
+
+.label-container {
+  @apply relative rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20;
+}
+
+.label-text {
+  @apply text-gray-600;
+}
+
+.label-link {
+  @apply font-semibold text-violet-600;
+}
+
+//
